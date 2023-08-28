@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*
+header{
+    position: relative;
+    background-color: black;
+    height: 5%;
+    width: 100%;
+}
+*/
+.container {
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -3;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7; /* Cambia este valor para ajustar la transparencia */
+    z-index: -2;
+}
+
+
+
+.masInfo {
+    font-size: large;
+    color: rgb(255, 255, 255); /* color de fuente */
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    bottom: 15%; /* Ajusta este valor para cambiar la posición vertical */
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #ffffff49;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 3;
+}
