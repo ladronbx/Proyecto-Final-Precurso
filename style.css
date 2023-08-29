@@ -15,44 +15,57 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    background-color: black;
+    background-color: #1c1c1c;
     width: 100%;
     padding: 1%;
     z-index: 10;
 }
-
+header.cabezal{
+    position: relative;
+}
 .cabezal {
     display: flex;
-    margin-right: auto;
-    align-items: center;
 }
 
-.carrito {
-    margin-right: 1%; /* Agrega un espacio entre el carrito y el ícono de usuario */
+.carrito, .user {
+    position: absolute;
 }
 
-.user {
-    margin-left: auto; /* Coloca el ícono de usuario a la derecha */
+.carrito{
+    right: 10%;
 }
-
+.user{
+    right: 5%;
+}
 
 .cabezal a {
     font-size: xx-large;
     padding-left: 5%;
     font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
     text-decoration: none;
-    color: rgba(120, 22, 22, 0.855);
+    color: #35b92e;
     cursor: pointer;
 }
 
 header a img {
-    position: relative;
-    bottom: 30%;
-    right: 4%;
     width: 50px;
     height: 50px;
 }
 
+h2 {
+    color: #35b92e;
+}
+.row>h2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: #35b92e;
+}
+h2,
+p {
+    color: #fff;
+    font-size: 1.5rem;
+}
 
 .container {
     margin-top: 0%;
@@ -97,19 +110,18 @@ video {
     cursor: pointer;
     z-index: 3;
 }
+
 /* Estilos para el título de categorías */
 .tituloCategorias {
     font-size: x-large;
     font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
-    background-color: black;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h2 {
-    color: rgba(120, 22, 22, 0.855);
-}
+
 
 
 /* Estilos carrusel categorías */
@@ -141,3 +153,27 @@ h2 {
 
 }
 
+.col {
+    margin: 0 15px;
+}
+
+
+
+p strong {
+    color: #35b92e;
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+}
+.FAQ-left{
+    width: 70%;
+}
+.FAQ-righ{
+    width: 30%;
+}
+
+.col p {
+    color: #ccc;
+}
