@@ -1,27 +1,69 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
 }
 
-/*
-header{
-    position: relative;
-    background-color: black;
-    height: 5%;
-    width: 100%;
+.row {
+    display: flex;
+    flex-direction: row;
 }
-*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding: 1%;
+    z-index: 10;
+}
+
+.cabezal {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.carrito {
+    margin-right: 1%; /* Agrega un espacio entre el carrito y el ícono de usuario */
+}
+
+.user {
+    margin-left: auto; /* Coloca el ícono de usuario a la derecha */
+}
+
+
+.cabezal a {
+    font-size: xx-large;
+    padding-left: 5%;
+    font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgba(120, 22, 22, 0.855);
+    cursor: pointer;
+}
+
+header a img {
+    position: relative;
+    bottom: 30%;
+    right: 4%;
+    width: 50px;
+    height: 50px;
+}
+
+
 .container {
-    margin-top: 5%;
+    margin-top: 0%;
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-img {
+#img-fondo-call {
+    margin-top: 6%;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -36,19 +78,17 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.7; /* Cambia este valor para ajustar la transparencia */
+    opacity: 0.7;
     z-index: -2;
 }
 
-
-
 .masInfo {
     font-size: large;
-    color: rgb(255, 255, 255); /* color de fuente */
+    color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     position: absolute;
-    left: 50%;
-    bottom: 15%; /* Ajusta este valor para cambiar la posición vertical */
+    left: 70%;
+    bottom: 2%;
     transform: translateX(-50%);
     text-align: center;
     padding: 20px 40px;
@@ -57,3 +97,47 @@ video {
     cursor: pointer;
     z-index: 3;
 }
+/* Estilos para el título de categorías */
+.tituloCategorias {
+    font-size: x-large;
+    font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgba(120, 22, 22, 0.855);
+}
+
+
+/* Estilos carrusel categorías */
+.categorias {
+    justify-content: center;
+}
+
+.categorias section {
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+.categorias section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 12;
+
+    filter: grayscale(90%);
+    transition: 0.5s ease;
+}
+
+.categorias section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(110%);
+
+}
+
