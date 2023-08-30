@@ -1,0 +1,43 @@
+/* Estilos para el título de categorías */
+.tituloCategorias {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Estilos carrusel categorías */
+.categorias {
+    justify-content: center;
+}
+
+.categorias section {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: #1c1c1c;
+}
+
+.categorias section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 12;
+    filter: grayscale(90%);
+    transition: 0.5s ease;
+}
+
+.categorias section img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(110%);
+}
+
+
+
+

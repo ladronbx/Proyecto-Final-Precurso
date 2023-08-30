@@ -1,0 +1,41 @@
+section {
+    margin-bottom: 7%;
+    padding-top: 12%;
+}
+
+.producto {
+    text-align: center;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 3%; /* Espacio entre los productos */
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Alinea el precio en la parte inferior */
+.producto p:last-child {
+    margin-top: auto;
+}
+
+@media (min-width: 1200px) {
+    .elementosPS5 .col-lg-3 {
+        flex-basis: 25%; /* 4 elementos por fila en pantallas grandes */
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .elementosPS5 .col-md-6 {
+        flex-basis: 50%; /* 2 elementos por fila en iPads */
+    }
+}
+
+@media (max-width: 767px) {
+    .elementosPS5 .col-sm-12 {
+        flex-basis: 100%; /* 1 elemento por fila en smartphones */
+    }
+}
