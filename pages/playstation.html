@@ -31,10 +31,10 @@
 
 
     <section>
-        <div class="row elementosPS5">
-            <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="row">
+            <div class="col">
                 <div class="producto">
-                    <p>Consola-Sony PlayStation5 Standard, 825 GB</p>
+                    <p>PlayStation5 Standard, 825 GB</p>
                     <img src="img-video/img-productos/PS5-consola.png" alt="Imagen consola PlayStation 5">
                     <p>Precio : 449€</p>
                     <button class="agregar-carrito" data-producto="Consola-Sony PlayStation5 Standard, 825 GB" data-precio="449">Añadir al carrito</button>
@@ -42,47 +42,74 @@
                 <div class="producto">
                     <p>Juego Hgwarts Legacy PS5</p>
                     <img src="img-video/img-productos/PS5-hogwarts.png" alt="Imagen Hogwarts PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 49€</p>
+                    <button class="agregar-carrito" data-producto="Juego Hgwarts Legacy PS5" data-precio="49">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col">
                 <div class="producto">
                     <p>Juego Diablo IV PS5</p>
                     <img src="img-video/img-productos/PS5-diablo.png" alt="Imagen DiabloIV PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 54,95€</p>
+                    <button class="agregar-carrito" data-producto="Juego Diablo IV PS5" data-precio="54,95">Añadir al carrito</button>
                 </div>
                 <div class="producto">
                     <p>Juego Resident Evil 4 PS5</p>
                     <img src="img-video/img-productos/PS5-resident.png" alt="Imagen Resident Evil 4 PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 45,99€</p>
+                    <button class="agregar-carrito" data-producto="Juego Resident Evil 4 PS5" data-precio="45,99">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col">
                 <div class="producto">
                     <p>Juego God Of War Ragnarök PS5</p>
                     <img src="img-video/img-productos/PS5-god.png" alt="Imagen GOD PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 54,99€</p>
+                    <button class="agregar-carrito" data-producto="Juego God Of War Ragnarök PS5" data-precio="54,99">Añadir al carrito</button>
                 </div>
                 <div class="producto">
                     <p>Juego The Witcher 3: Wild Hunt PS5</p>
                     <img src="img-video/img-productos/PS5-TheWitcher.png" alt="Imagen The Witcher PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 21,99€</p>
+                    <button class="agregar-carrito" data-producto="Juego The Witcher 3: Wild Hunt PS5" data-precio="21,99">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col">
                 <div class="producto">
                     <p>Juego The Last of Us Part I PS5</p>
                     <img src="img-video/img-productos/PS5-TLOU1.png" alt="Imagen TLOU1 PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 39,99€</p>
+                    <button class="agregar-carrito" data-producto="Juego The Last of Us Part I PS5" data-precio="39,99">Añadir al carrito</button>
+                    
                 </div>
                 <div class="producto">
                     <p>Juego The Last of Us Part II PS4</p>
                     <img src="img-video/img-productos/PS5-TLOU2.png" alt="Imagen TLOU2 PlayStation 5">
-                    <p>Precio : 449€</p>
+                    <p>Precio : 21€</p>
+                    <button class="agregar-carrito" data-producto="Juego The Last of Us Part II PS4" data-precio="21">Añadir al carrito</button>
                 </div>
             </div>
+            <aside id="cesta">
+                <div><h2>Tu pedido [<span id="cantidadProductos">0</span>]</h2></div>
+                <div>
+                    <p id="textoCesta">ARRASTRA LOS PRODUCTOS HASTA LA CESTA PARA AÑADIRLOS</p>
+                    <a href="cesta.html"><img src="img-video/carrito.png" alt="cesta" id="cestaIcono"></a>
+                </div>
+                <div>
+                    <h3>Detalles del pedido:</h3>
+                    <p class="textoArticulo"></p>
+                    <p><b>Precio total: <span id="precioTotal">0.00</span>€</b></p>
+                    <span>
+                        <button class="botonPedido" onclick="elminarTodo()">Borrar pedido</button>
+                        <button class="botonPedido">Tramitar pedido</button>
+                    </span>
+                </div>
+            </aside>
         </div>
     </section>
+   
+    
+    <div class="clearfix"></div>
 
 
 
