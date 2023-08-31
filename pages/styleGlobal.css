@@ -12,9 +12,8 @@ html {
 }
 
 .row>h2 {
-
-    padding: 10px;
-    display: inline-block;
+    padding-top: 3%;
+    margin: 0% auto;
     color: #a0d09d;
 }
 
@@ -116,6 +115,7 @@ p strong {
 .sobreNosotros-texto .col,
 .trabaja-texto .col,
 .trabaja-texto2 .col,
+.FAQ-up .col,
 .FAQ-down .col {
     padding-left: 2%;
     padding-right: 2%;
@@ -128,21 +128,15 @@ p strong {
 
 .FAQ-up .col p {
 
-    text-align: left;
-    margin: 2% auto;
-    padding-left: 6%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    color: #cccccc95;
 }
 
 .col .img-faq img {
-    position: relative;
+
 }
 
 .img-faq img {
-    position: relative;
-    margin-left: 100%;
+    width: 70%;
+
 }
 
 /* Estilos resposive para footer*/
@@ -159,15 +153,5 @@ p strong {
     .col {
         width: 80%;
         /* Ocupa todo el ancho disponible en pantallas pequeñas */
-    }
-    .FAQ-up .col p {
-        margin: 4%;
-    }
-
-    .img-faq img {
-        padding: 10%;
-        margin-left: 30%;
-        width: 40%;
-        /* Ajusta el ancho de la imagen al ancho de su contenedor */
     }
 }
