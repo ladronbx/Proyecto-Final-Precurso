@@ -1,15 +1,13 @@
-/* Estilos para el título de categorías */
-.tituloCategorias {
+.titulo{
+    letter-spacing: 3px;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #1c1c1c;
+    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-
-
-
 /* Estilos carrusel categorías */
 .categorias {
     justify-content: center;

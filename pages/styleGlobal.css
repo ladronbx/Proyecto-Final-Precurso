@@ -5,16 +5,11 @@ html {
     height: 100%;
 }
 
-/*Columnas general*/
-.row {
-    display: flex;
-    flex-direction: row;
-}
-
-.row>h2 {
-    padding-top: 3%;
-    margin: 0% auto;
-    color: #a0d09d;
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin-right: 10%;
+    margin-left: 10%
 }
 
 /*Barra header menú fija*/
@@ -66,92 +61,50 @@ header a img {
     height: 50px;
 }
 
-/* Estilos sobre nosotros y trabaja con nosotros */
+/* Estilos generales para todas las columnas */
 
-.sobreNosotros,
-.trabaja {
+p strong{
+    color: #a0d09d;
+}
+
+.titulo{
+    letter-spacing: 3px;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    padding-left: 6%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-}
-
-.sobreNosotros-texto,
-.trabaja-texto,
-.trabaja-texto2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    color: #ccc;
-    padding-bottom: 0%;
-    padding-top: 0%;
-}
-
-
-
-
-/* Estilos pie de página */
-footer {
-    width: 100%;
-    position: relative;
     background-color: #333;
-    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-p strong {
-    color: #35b92e;
-}
-
-.FAQ-tittle {
+.titulo-blanco{
+    letter-spacing: 3px;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
     display: flex;
-    padding-left: 7%;
-    padding-bottom: 5%;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.sobreNosotros-texto .col,
-.trabaja-texto .col,
-.trabaja-texto2 .col,
-.FAQ-up .col,
-.FAQ-down .col {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-    margin: 4% auto;
+.col {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    color: #cccccc95;
+    color: #ccc;
+    margin: 2%;
+    padding: 2%;
+    align-items: center;
 }
 
-.FAQ-up .col p {
-
+h2 {
+    color: #35b92e;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
-.col .img-faq img {
-
-}
-
-.img-faq img {
-    width: 70%;
-
-}
-
-/* Estilos resposive para footer*/
-
-/* Estilos generales */
-
-/* Estilos para pantallas de hasta 768px de ancho */
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column;
-        /* Cambia la dirección de las filas a vertical */
-    }
-
-    .col {
-        width: 80%;
-        /* Ocupa todo el ancho disponible en pantallas pequeñas */
-    }
+.col img{
+    
+    width: 50%;
 }
