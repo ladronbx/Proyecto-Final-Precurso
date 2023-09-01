@@ -1,16 +1,79 @@
-body {
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin-right: 10%;
+    margin-left: 10%
+}
+
+.barras {
+    --number-of-stripes: 4;
+    --stripe-height: 12px;
+    height: 50px;
+    background-image: linear-gradient(rgb(200, 35, 55) 0%, rgb(200, 35, 55) 25%, rgb(224, 98, 54) 25%, rgb(224, 98, 54) 50%, rgb(215, 171, 97) 50%, rgb(215, 171, 97) 75%, rgb(47, 76, 121) 75%, rgb(47, 76, 121) 100%);
+}
+
+/*Barra header menú fija*/
+.cabezal a:hover {
+    text-decoration: none;
+    color: #a0d09d;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
     background-color: #1c1c1c;
-
+    width: 100%;
+    padding: 2%;
+    z-index: 10;
 }
 
-.row {
-    margin: 1%;
-    margin: auto;
+header.cabezal {
+    position: relative;
 }
 
-section {
+.cabezal {
+    display: flex;
+}
+
+.carrito,
+.user {
+    position: absolute;
+}
+
+.carrito {
+    bottom: 10%;
+    right: 10%;
+}
+
+.user {
+    bottom: 10%;
+    right: 5%;
+}
+
+.cabezal a {
+    font-size: large;
+    padding-left: 5%;
+    font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #a0d09d;
+    cursor: pointer;
+}
+
+header a img {
+    width: 50px;
+    height: 50px;
+}
+
+.elementos {
+    background-color: #1c1c1c;
     color: #d4e1d3;
-    margin-bottom: 7%;
+    margin-bottom: 0%;
     padding-top: 7%;
     padding-left: 3%;
 }
@@ -21,12 +84,10 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     font-weight: bold;
-    margin-bottom: 3%;
-    /* Espacio entre los productos */
+    margin-bottom: 2%;
 }
 
 .producto img {
-
     max-width: 100%;
     height: auto;
 }

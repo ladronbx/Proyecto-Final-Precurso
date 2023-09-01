@@ -1,0 +1,18 @@
+h1{
+    letter-spacing: 4px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#35b92e;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: #333;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #333;
+
+}

@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleGlobal.css">
     <link rel="stylesheet" href="style-productos.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>gameZonex</title>
 </head>
 
@@ -30,7 +29,7 @@
     </header>
 
 
-    <section>
+    <div class="container-fluid elementos">
         <div class="row">
             <div class="col">
                 <div class="producto">
@@ -108,9 +107,7 @@
                 </div>
             </div>
             <aside id="cesta">
-                <div>
-                    <h2>Tu pedido [<span id="cantidadProductos">0</span>]</h2>
-                </div>
+                <div><h2>Tu pedido [<span id="cantidadProductos">0</span>]</h2></div>
                 <div>
                     <p id="textoCesta">ARRASTRA LOS PRODUCTOS HASTA LA CESTA PARA AÑADIRLOS</p>
                     <a href="cesta.html"><img src="img-video/carrito.png" alt="cesta" id="cestaIcono"></a>
@@ -126,12 +123,15 @@
                 </div>
             </aside>
         </div>
-    </section>
-
-
-    <div class="clearfix"></div>
+    </div>
+        <footer style="text-align: right; padding-right: 1%;" >
+            <p><b>@ladronbx</b> - 01/09/2023 - &copy; - <a style="text-decoration: none; color: #35b92e;" href="#top">Volver arriba</a></p>
+        </footer>
     <script src="script-enlaces-carrusel.js"></script>
     <script src="script-cesta.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
