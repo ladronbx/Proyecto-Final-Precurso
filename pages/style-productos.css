@@ -107,7 +107,7 @@ aside {
 }
 
 button {
-    background-color: #d4e1d3;
+    background-color: #087100;
     color: #1c1c1c;
 }
 
@@ -115,3 +115,21 @@ button a {
     text-decoration: none;
     color: #1c1c1c;
 }
+
+
+button{
+    background-color: #45493b;
+    color: #00ffaa;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+
+}
+
+button:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+              
