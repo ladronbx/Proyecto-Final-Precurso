@@ -8,7 +8,14 @@
 
 # gamezonex - Tienda de Videojuegos Drag&Drop
 
-Este es el último proyecto del pre-curso GeekHubs.  A continuación, se describen las principales características del proyecto:
+Este es el último proyecto del pre-curso GeekHubs donde pongo en práctica todo lo aprendido en el curso previo al Bootcamp Full Stack.  A continuación, se describen las principales características del proyecto:
+
+## Desarrollado con :
+* [HTML5](https://lenguajehtml.com/html/)
+* [CSS3](https://desarrolloweb.com/manuales/css3.html)
+* [Bootstrap](https://getbootstrap.com/)
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
 
 ## Página Principal
 
