@@ -1,61 +1,67 @@
+![Icono GeeksHubs Academy](img-readme/geekhubs.png)
+
+
 # Proyecto-Final-Precurso
-<<<<<<<<<imagen-geeekshubs
+![Cabecera GeeksHubs Academy](img-readme/cabecera-proyecto.png)
 
 
-# gameZonex - Tu Tienda de Videojuegos
+
+# gameZonex - Tienda de Videojuegos Drag&Drop
 
 Este es el último proyecto del pre-curso GeekHubs.  A continuación, se describen las principales características del proyecto:
 
 ## Página Principal
 
-- La página principal cuenta con una cabecera fija que permite navegar por las diferentes secciones del proyecto.
+- La página principal cuenta con una cabecera fija que actua como menú y permite navegar por las diferentes secciones del proyecto.
 
-<<<<<<<<<imagen-cabecera
+![Barra fija menú](img-readme/barramenu.png)
 
 - Incluye un video promocional de un lanzamiento de videojuego.
 
-<<<<<<<<<gift-call
+![Gif promocional](img-readme/videocall.gif)
 
 - Un carrusel dinámico muestra las diferentes categorías de videojuegos disponibles, y al hacer clic en una categoría, te lleva a la página correspondiente.
 
-<<<<<<<<<gift-carrusel
+![Gif carrusel](img-readme/carrusel.gif)
 
 - Secciones adicionales como "Trabaja con nosotros," "Sobre nosotros," y "Preguntas Frecuentes (FAQ)" proporcionan información adicional sobre el proyecto.
 
-<<<<<<<<<imagen-fooooter
-
+![Sección about](img-readme/about.png)
+![Sección FAQ](img-readme/faq.png)
 ## Barra de Navegación
 
 - Al hacer clic sobre el ícono de usuario, se accede a una página ficticia de inicio de sesión.
 
 
-<<<<<<<<<imagen-icono
+![Sección login](img-readme/login.gif)
 
 
 - En el interior de esta página, los usuarios no registrados pueden registrarse haciendo clic en el enlace "Regístrate aquí."
 
-<<<<<<<<<imagen-registrate
+
+![Sección registro](img-readme/registro.gif)
 
 ## Registro de Usuarios
 
 - La página de registro de usuarios contiene un formulario donde los usuarios pueden ingresar sus datos.
 
-<<<<<<<<<imagen-formulario
+![Sección formulario](img-readme/formulario.png)
+
 
 ## Páginas de Categorías
 
 - Hay cinco categorías principales: PlayStation, Nintendo, Xbox, PC y Cine.
 - En estas páginas, los usuarios pueden comprar productos haciendo clic en ellos o arrastrándolos y soltándolos.
-<<<<<<<<<imagen-productos
+![Sección productos](img-readme/productos.png)
 - Una cesta en el lateral de la página muestra los productos seleccionados y su precio actualizado. También incluye botones para "Eliminar todo" y "Realizar pedido."
-<<<<<<<<<imagen-cesta
+![Sección cesta](img-readme/cesta.png)
 
 ## Sección de Novedades
 
 - Esta sección presenta noticias sobre las fechas de lanzamiento de videojuegos, incluyendo un video del tráiler.
-<<<<<<<<<imagen-novedades
+![Sección starfield](img-readme/starfield.png)
 - También incluye una noticias relacionadas con videojuegos.
-<<<<<<<<<imagen-lara
+![Sección lara](img-readme/lara.png)
 
 ## Código Fuente
 
@@ -94,7 +100,7 @@ Para obtener una copia de este proyecto en tu PC, puedes seguir estos pasos:
    git clone https://github.com/TuUsuario/TuRepositorio.git
 
 
-<<<<<<<<< imagen-está en el desktop
+![Instrucciones consola](img-readme/instrucciones.png)
 
 ## Instrucciones de Visualización
 
