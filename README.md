@@ -6,7 +6,7 @@
 
 
 
-# gameZonex - Tienda de Videojuegos Drag&Drop
+# gamezonex - Tienda de Videojuegos Drag&Drop
 
 Este es el último proyecto del pre-curso GeekHubs.  A continuación, se describen las principales características del proyecto:
 
@@ -97,7 +97,7 @@ Para obtener una copia de este proyecto en tu PC, puedes seguir estos pasos:
 2. Utiliza el siguiente comando para clonar el repositorio en tu máquina:
 
    ```bash
-   git clone https://github.com/TuUsuario/TuRepositorio.git
+   git clone https://github.com/ladronbx/Proyecto-Final-Precurso.git
 
 
 ![Instrucciones consola](img-readme/instrucciones.png)
