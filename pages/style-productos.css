@@ -106,14 +106,17 @@ aside {
     color: #d4e1d3;
 }
 
-button {
-    background-color: #087100;
-    color: #1c1c1c;
-}
 
+.agregar-carrito{
+    font-size: x-small;
+    font-weight: bold;
+
+}
 button a {
     text-decoration: none;
     color: #1c1c1c;
+    font-size: small;
+    font-weight: bold;
 }
 
 
@@ -123,6 +126,8 @@ button{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
+    font-size: small;
+    font-weight: bold;
 
 }
 
