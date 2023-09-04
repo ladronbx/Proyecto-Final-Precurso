@@ -22,7 +22,7 @@ function actualizarCarrito() {
     document.getElementById("textoCesta").innerText = "Productos en el carrito:";
     document.getElementById("cantidadProductos").innerText = carrito.length;
     document.querySelector(".textoArticulo").innerHTML = textoArticulo;
-    document.getElementById("precioTotal").innerText = precioTotal.toFixed(2) + "€";
+    document.getElementById("precioTotal").innerText = precioTotal.toFixed(2);
 }
 
 // Agregar eventos de clic a los botones "agregar-carrito"

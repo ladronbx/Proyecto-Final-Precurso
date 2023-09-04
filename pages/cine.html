@@ -27,22 +27,22 @@
             </a>
         </div>
     </header>
-
-
     <div class="container-fluid elementos">
         <div class="row">
             <div class="col">
                 <div class="producto">
                     <p>Ataque a los Titanes. 3 Temporada - DVD</p>
                     <img src="img-video/img-productos/CINE-Attack.png"
-                        alt="Imagen Ataque a los Titanes. 3 Temporada - DVD">
+                        alt="Imagen Ataque a los Titanes. 3 Temporada - DVD" draggable="true"
+                        data-producto="Ataque a los Titanes. 3 Temporada - DVD" data-precio="48,40">
                     <p>Precio : 48,40€</p>
                     <button class="agregar-carrito" data-producto="Ataque a los Titanes. 3 Temporada - DVD"
                         data-precio="48,40">Añadir al carrito</button>
                 </div>
                 <div class="producto">
                     <p>Guerra Mundial Z - Blu-ray</p>
-                    <img src="img-video/img-productos/CINE-GuerraZ.png" alt="Imagen Guerra Mundial Z - Blu-ray">
+                    <img src="img-video/img-productos/CINE-GuerraZ.png" alt="Imagen Guerra Mundial Z - Blu-ray"
+                        draggable="true" data-producto="Guerra Mundial Z - Blu-ray" data-precio="17,72">
                     <p>Precio : 17,72€</p>
                     <button class="agregar-carrito" data-producto="Guerra Mundial Z - Blu-ray"
                         data-precio="17,72">Añadir al carrito</button>
@@ -52,16 +52,19 @@
                 <div class="producto">
                     <p>La Guerra de los Mundos - Blu-ray Ultra HD de 4K</p>
                     <img src="img-video/img-productos/CINE-GuerraM.png"
-                        alt="Imagen La Guerra de los Mundos - Blu-ray Ultra HD de 4K">
+                        alt="Imagen La Guerra de los Mundos - Blu-ray Ultra HD de 4K" draggable="true"
+                        data-producto="La Guerra de los Mundos - Blu-ray Ultra HD de 4K" data-precio="31,22">
                     <p>Precio : 31,22€</p>
                     <button class="agregar-carrito" data-producto="La Guerra de los Mundos - Blu-ray Ultra HD de 4K"
                         data-precio="31,22">Añadir al carrito</button>
                 </div>
                 <div class="producto">
                     <p>Harry Potter Colección Completa</p>
-                    <img src="img-video/img-productos/CINE-Harry.png" alt="Imagen Harry Potter Colección Completa">
+                    <img src="img-video/img-productos/CINE-Harry.png" alt="Imagen Harry Potter Colección Completa"
+                        draggable="true" data-producto="Película Harry Potter Colección Completa" data-precio="145,99">
                     <p>Precio : 145,99€</p>
-                    <button class="agregar-carrito" data-producto="Película Harry Potter Colección Completa" data-precio="145,99">Añadir
+                    <button class="agregar-carrito" data-producto="Película Harry Potter Colección Completa"
+                        data-precio="145,99">Añadir
                         al carrito</button>
                 </div>
             </div>
@@ -69,7 +72,8 @@
                 <div class="producto">
                     <p>Soy leyenda - Blu-ray Ultra HD de 4K</p>
                     <img src="img-video/img-productos/CINE-ImLegend.png"
-                        alt="Imagen Soy leyenda - Blu-ray Ultra HD de 4K">
+                        alt="Imagen Soy leyenda - Blu-ray Ultra HD de 4K" draggable="true"
+                        data-producto="Soy leyenda - Blu-ray Ultra HD de 4K" data-precio="26,19">
                     <p>Precio : 26,19€</p>
                     <button class="agregar-carrito" data-producto="Soy leyenda - Blu-ray Ultra HD de 4K"
                         data-precio="26,19">Añadir al carrito</button>
@@ -77,7 +81,8 @@
                 <div class="producto">
                     <p>Trilogía El Señor de los Anillos - Blu-ray Ultra HD de 4K</p>
                     <img src="img-video/img-productos/CINE-LORD.png"
-                        alt="Imagen Trilogía El Señor de los Anillos - Blu-ray Ultra HD de 4K">
+                        alt="Imagen Trilogía El Señor de los Anillos - Blu-ray Ultra HD de 4K" draggable="true"
+                        data-producto="Trilogía El Señor de los Anillos - Blu-ray Ultra HD de 4K5" data-precio="21,99">
                     <p>Precio : 127,29€</p>
                     <button class="agregar-carrito"
                         data-producto="Trilogía El Señor de los Anillos - Blu-ray Ultra HD de 4K5"
@@ -87,8 +92,8 @@
             <div class="col">
                 <div class="producto">
                     <p>Interstellar - Blu-ray Ultra HD de 4K</p>
-                    <img src="img-video/img-productos/CINE-Inter.png"
-                        alt="Imagen Interstellar - Blu-ray Ultra HD de 4K">
+                    <img src="img-video/img-productos/CINE-Inter.png" alt="Imagen Interstellar - Blu-ray Ultra HD de 4K"
+                        draggable="true" data-producto="Interstellar - Blu-ray Ultra HD de 4K" data-precio="36,83">
                     <p>Precio : 36,83€</p>
                     <button class="agregar-carrito" data-producto="Interstellar - Blu-ray Ultra HD de 4K"
                         data-precio="36,83">Añadir al carrito</button>
@@ -97,14 +102,16 @@
                 <div class="producto">
                     <p>Terminator Génesis - Blu-ray Ultra HD de 4K</p>
                     <img src="img-video/img-productos/CINE-Terminator.png"
-                        alt="Imagen Terminator Génesis - Blu-ray Ultra HD de 4K">
+                        alt="Imagen Terminator Génesis - Blu-ray Ultra HD de 4K" draggable="true"
+                        data-producto="Terminator Génesis - Blu-ray Ultra HD de 4K" data-precio="35,82">
                     <p>Precio : 35,82€</p>
                     <button class="agregar-carrito" data-producto="Terminator Génesis - Blu-ray Ultra HD de 4K"
                         data-precio="35,82">Añadir al carrito</button>
                 </div>
             </div>
 
-            <aside id="cesta">
+
+            <aside id="cesta" ondragover="allowDrop(event)" ondrop="drop(event)">
                 <div>
                     <h2>Tu pedido [<span id="cantidadProductos">0</span>]</h2>
                 </div>
@@ -117,8 +124,8 @@
                     <p class="textoArticulo"></p>
                     <p><b>Precio total: <span id="precioTotal">0.00</span>€</b></p>
                     <span>
-                        <button class="botonPedido" onclick="elminarTodo()">Borrar pedido</button>
-                        <button class="botonPedido">Tramitar pedido</button>
+                        <button class="botonElimina" onclick="botonElimina()">Borrar pedido</button>
+                        <button class="botonElimina" onclick="botonElimina()">Tramitar pedido</button>
                     </span>
                 </div>
             </aside>
@@ -127,10 +134,10 @@
     <footer style="text-align: right; padding-right: 1%;">
         <p><b>@ladronbx</b> - 01/09/2023 - &copy;</p>
     </footer>
-    <script src="add-with-click.js"></script>
-    <script src="add-with-drag.js"></script>
+
+    <script src="script-drag.js"></script>
     <script src="script-enlaces-carrusel.js"></script>
-    <script src="script-cesta.js"></script>
+    <!--<script src="script-cesta.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
