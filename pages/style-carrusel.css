@@ -1,4 +1,4 @@
-.titulo{
+.titulo {
     letter-spacing: 16px;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,6 +8,7 @@
     align-items: center;
 
 }
+
 /* Estilos carrusel categorías */
 .categorias {
     justify-content: center;
@@ -36,6 +37,45 @@
     filter: contrast(110%);
 }
 
+/* Media Query para dispositivos con menos de 1600px */
+@media (max-width: 1600px) {
+    .categorias section {
+        margin: 0%;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .categorias section img {
+        transition: none;
+        flex-wrap: wrap;
+        width: 15%;
+        margin: 0%;
+    }
 
+    .categorias section img:hover {
+        width: 30%;
+        filter: contrast(110%);
+    }
+}
 
+@media (max-width: 412px) {
+    .categorias section {
+        display: block; /* Cambiar de flex a bloque */
+        width: 100%; /* Ancho completo del display */
+        height: auto; /* Altura automática para ajustar al contenido */
+    }
+
+    .categorias section img {
+        width: 100%; /* Ancho del 100% del display */
+        height: auto; /* Altura automática para mantener la proporción */
+        margin-bottom: 10px; /* Espacio entre imágenes */
+    }
+
+    .categorias section img:hover {
+        width: 100%; /* Mantener el 100% de ancho en el hover */
+        filter: contrast(110%);
+    }
+}

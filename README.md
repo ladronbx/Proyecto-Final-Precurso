@@ -1,27 +1,22 @@
 ![Icono GeeksHubs Academy](img-readme/geekhubs.png)
 
-
 # Proyecto-Final-Precurso
 ![Cabecera GeeksHubs Academy](img-readme/cabecera-proyecto.png)
 
+# Gamezonex - Tienda de Videojuegos Drag&Drop
 
+Este es el último proyecto del precurso de GeekHubs, donde pongo en práctica todo lo aprendido en el curso previo al Bootcamp Full Stack. A continuación, se describen las principales características del proyecto:
 
-# gamezonex - Tienda de Videojuegos Drag&Drop
+## Desarrollado con:
 
-Este es el último proyecto del pre-curso GeekHubs donde pongo en práctica todo lo aprendido en el curso previo al Bootcamp Full Stack.  A continuación, se describen las principales características del proyecto:
-
-## Desarrollado con :
-* [HTML5](https://lenguajehtml.com/html/)
-* [CSS3](https://desarrolloweb.com/manuales/css3.html)
-* [Bootstrap](https://getbootstrap.com/)
-* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-
+- [HTML5](https://lenguajehtml.com/html/)
+- [CSS3](https://desarrolloweb.com/manuales/css3.html)
+- [Bootstrap](https://getbootstrap.com/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 ## Página Principal
 
-- La página principal cuenta con una cabecera fija que actua como menú y permite navegar por las diferentes secciones del proyecto.
-
-![Barra fija menú](img-readme/barramenu.png)
+- La página principal cuenta con una cabecera fija que contiene el nombre de la web, el cual actúa como Home, y un icono de usuario donde poder realizar login y registro.
 
 - Incluye un video promocional de un lanzamiento de videojuego.
 
@@ -31,20 +26,18 @@ Este es el último proyecto del pre-curso GeekHubs donde pongo en práctica todo
 
 ![Gif carrusel](img-readme/carrusel.gif)
 
-- Secciones adicionales como "Trabaja con nosotros," "Sobre nosotros," y "Preguntas Frecuentes (FAQ)" proporcionan información adicional sobre el proyecto.
+- Secciones adicionales como "Trabaja con nosotros," "Sobre nosotros" y "Preguntas Frecuentes (FAQ)" proporcionan información adicional sobre el proyecto.
 
 ![Sección about](img-readme/about.png)
 ![Sección FAQ](img-readme/faq.png)
+
 ## Barra de Navegación
 
 - Al hacer clic sobre el ícono de usuario, se accede a una página ficticia de inicio de sesión.
 
-
 ![Sección login](img-readme/login.gif)
 
-
 - En el interior de esta página, los usuarios no registrados pueden registrarse haciendo clic en el enlace "Regístrate aquí."
-
 
 ![Sección registro](img-readme/registro.gif)
 
@@ -54,27 +47,32 @@ Este es el último proyecto del pre-curso GeekHubs donde pongo en práctica todo
 
 ![Sección formulario](img-readme/formulario.png)
 
-
 ## Páginas de Categorías
 
 - Hay cinco categorías principales: PlayStation, Nintendo, Xbox, PC y Cine.
 - En estas páginas, los usuarios pueden comprar productos haciendo clic en ellos o arrastrándolos y soltándolos.
+
 ![Sección productos](img-readme/productos.png)
+
 - Una cesta en el lateral de la página muestra los productos seleccionados y su precio actualizado. También incluye botones para "Eliminar todo" y "Realizar pedido."
+
 ![Sección cesta](img-readme/cesta.png)
 
 ## Sección de Novedades
 
 - Esta sección presenta noticias sobre las fechas de lanzamiento de videojuegos, incluyendo un video del tráiler.
+
 ![Sección starfield](img-readme/starfield.png)
-- También incluye una noticias relacionadas con videojuegos.
+
+- También incluye noticias relacionadas con videojuegos.
+
 ![Sección lara](img-readme/lara.png)
 
 ## Código Fuente
 
-El código fuente de gameZonex está organizado en diferentes páginas HTML, archivos JavaScript y hojas de estilo CSS. A continuación, se enumeran las páginas principales y los archivos asociados:
+El código fuente de Gamezonex está organizado en diferentes páginas HTML, archivos JavaScript y hojas de estilo CSS. A continuación, se enumeran las páginas principales y los archivos asociados:
 
-- `index.html`: Página principal de gameZonex con la cabecera, video promocional y carrusel de categorías.
+- `index.html`: Página principal de Gamezonex con la cabecera, video promocional y carrusel de categorías.
 - `nintendo.html`: Página dedicada a productos de Nintendo.
 - `pc.html`: Página dedicada a productos de PC.
 - `playstation.html`: Página dedicada a productos de PlayStation.
@@ -94,7 +92,6 @@ El código fuente de gameZonex está organizado en diferentes páginas HTML, arc
 - `styleIndex.css`: Hoja de estilo CSS para la página principal.
 - `README.md`: Este archivo de documentación.
 
-
 ## Instrucciones de Descarga
 
 Para obtener una copia de este proyecto en tu PC, puedes seguir estos pasos:
@@ -105,8 +102,6 @@ Para obtener una copia de este proyecto en tu PC, puedes seguir estos pasos:
 
    ```bash
    git clone https://github.com/ladronbx/Proyecto-Final-Precurso.git
-
-
 ![Instrucciones consola](img-readme/instrucciones.png)
 
 ## Instrucciones de Visualización
@@ -129,6 +124,6 @@ Este proyecto es obra de @ladronbx. Si deseas contribuir, ¡siéntete libre de h
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [ladronbravovlc@gmail.com](mailto:ladronbravovlc@gmail.com).
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [ladronbravovlc@gmail.com](mailto:ladronbravovlc@gmail.com)
 
 ---

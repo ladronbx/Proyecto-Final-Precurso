@@ -27,7 +27,7 @@ video {
 }
 
 .masInfo {
-    font-size: large;
+    font-size: medium;
     color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     position: absolute;
@@ -35,14 +35,14 @@ video {
     bottom: 2%;
     transform: translateX(-50%);
     text-align: center;
-    padding: 20px 40px;
+    padding: 15px 15px 15px;
     background-color: #ffffff49;
     border-radius: 8px;
     cursor: pointer;
     z-index: 3;
 }
 .reservaAqui {
-    font-size: large;
+    font-size: medium;
     color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     position: absolute;
@@ -50,9 +50,22 @@ video {
     bottom: 2%;
     transform: translateX(-50%);
     text-align: center;
-    padding: 20px 70px;
+    padding: 15px 40px 15px;
     background-color: #ffffff49;
     border-radius: 8px;
     cursor: pointer;
     z-index: 3;
 }
+
+@media (max-width: 1600px) {
+    .masInfo{
+        padding: 5px 5px 5px;
+        font-size: x-small;
+    }
+    .reservaAqui {
+        padding: 5px 20px 5px;
+        font-size: x-small;
+    }
+}
+
+
