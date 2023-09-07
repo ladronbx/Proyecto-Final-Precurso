@@ -1,7 +1,24 @@
+// ***********************************************************************
+//                              CLICK BUTTON
+// ***********************************************************************
+
+
+//agregar funcionalidad miArray.pop() Para limimar el último elemento del array con un botón
+
 // Variables para el precio total y el carrito de compras
 var precioTotal = 0.00;
 var carrito = [];
 var preciosProductos = {}; // Objeto para mantener los precios de los productos
+var botonesAgregarCarrito = document.querySelectorAll(".agregar-carrito");
+
+// Agregar eventos de clic a los botones "agregar-carrito" e inicializar precios
+botonesAgregarCarrito.forEach((boton) => {
+    const producto = boton.dataset.producto;
+    const precio = parseFloat(boton.dataset.precio);
+    boton.addEventListener("click", () => agregarAlCarrito(producto, precio)); //Asigna función al evento click
+    preciosProductos[producto] = precio; // Inicializar los precios de los productos
+});
+
 
 // Función para agregar un producto al carrito
 function agregarAlCarrito(producto, precio) {
@@ -25,22 +42,25 @@ function actualizarCarrito() {
     document.getElementById("precioTotal").innerText = precioTotal.toFixed(2);
 }
 
-// Agregar eventos de clic a los botones "agregar-carrito"
-var botonesAgregarCarrito = document.querySelectorAll(".agregar-carrito");
-botonesAgregarCarrito.forEach(function (boton) {
-    boton.addEventListener("click", function () {
-        var producto = boton.dataset.producto;
-        var precio = parseFloat(boton.dataset.precio);
-        agregarAlCarrito(producto, precio);
-    });
-});
 
-// Inicializar los precios de los productos
-botonesAgregarCarrito.forEach(function (boton) {
-    var producto = boton.dataset.producto;
-    var precio = parseFloat(boton.dataset.precio);
-    preciosProductos[producto] = precio;
-});
+// Botón para eliminar el pedido
+function botonElimina() {
+    carrito = [];
+    actualizarCarrito();
+}
+
+// Botón para eliminar el último
+function botonEliminaUno() {
+    carrito.pop();
+    actualizarCarrito();
+}
+
+
+
+
+// ***********************************************************************
+//                               DRAG&DROP
+// ***********************************************************************
 
 // Agregar eventos de arrastrar y soltar a los productos y la cesta
 var productos = document.querySelectorAll(".producto");
@@ -63,8 +83,3 @@ cesta.addEventListener("drop", function (event) {
     agregarAlCarrito(producto, precio);
 });
 
-// Botón para eliminar el pedido
-function botonElimina() {
-    carrito = [];
-    actualizarCarrito();
-}
