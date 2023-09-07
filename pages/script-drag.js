@@ -32,7 +32,7 @@ function actualizarCarrito() {
     precioTotal = 0.00;
 
     for (var i = 0; i < carrito.length; i++) {
-        textoArticulo += carrito[i].producto + "<br>";
+        textoArticulo += carrito[i].producto +"-"+carrito[i].precio+ "€<br>";
         precioTotal += carrito[i].precio;
     }
 
@@ -43,18 +43,16 @@ function actualizarCarrito() {
 }
 
 
-// Botón para eliminar el pedido
-function botonElimina() {
-    carrito = [];
-    actualizarCarrito();
-}
+// Botón para realizar compray vaciar cesta
+const eliminaTodo = document.querySelector(".botonEliminaTodo");
+eliminaTodo.addEventListener('click', () => { carrito = []; actualizarCarrito(); alert('Gracias por tu compra')});
+
+
+
 
 // Botón para eliminar el último
-function botonEliminaUno() {
-    carrito.pop();
-    actualizarCarrito();
-}
-
+const eliminaUno = document.querySelector(".botonEliminaUno");
+eliminaUno.addEventListener('click', () => { carrito.pop(); actualizarCarrito()});
 
 
 
